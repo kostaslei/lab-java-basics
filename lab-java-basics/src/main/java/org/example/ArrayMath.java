@@ -7,10 +7,10 @@ public class ArrayMath {
 //    2) Write a method in Java to find the smallest and second smallest elements of a given array and print it in the console.
 //       Use loops and conditionals to develop the algorithm.
 
+    // Returns the difference between min and max of an array of Int
     public static int getDiffOfMaxMinFrom(int[] args) {
         int max = args[0];
         int min = args[0];
-        System.out.println(args.length);
 
         if (args.length > 1) {
             for (int arg : args) {
@@ -28,6 +28,7 @@ public class ArrayMath {
         }
     }
 
+    // Prints in console the min 2 elements of an array
     public static void getTwoSmallestNumbersFrom(int[] args) {
         int min = args[0];
         int min2 = args[0];
